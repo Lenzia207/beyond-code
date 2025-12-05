@@ -1,0 +1,111 @@
+{
+  "hero_section": {
+    "title_line1": "Building Websites for your Business",
+    "title_line2": "and Ideas.",
+    "description": "Turn your abstract ideas into visual reality. I craft digital experiences that perform as beautifully as they look.",
+    "btn_text": "Contact Me"
+  },
+  "service_section": {
+    "title": "How can I Help?",
+    "description": "Comprehensive design and development solutions.",
+    "services": [
+      {
+        "title": "Custom Web Development from Scratch",
+        "description": "From Design to Deployment: Creating responsive and dynamic websites using the latest technologies.",
+        "icon_images": {
+          "icon": "Code2",
+          "icon_color": "blue-400",
+          "icon_animation": "/public/animations/code-anim.json"
+        }
+      },
+      {
+        "title": "Build Website by your Design",
+        "description": "Building user-friendly interfaces that enhance user experience.",
+        "icon_images": {
+          "icon": "Layers",
+          "icon_color": "pink-400",
+          "icon_animation": "/public/animations/layer-anim.json"
+        }
+      },
+      {
+        "title": "Feature Integration",
+        "description": "Add interactivity, animations, forms, or third-party API integrations to breathe life into your static pages.",
+        "icon_images": {
+          "icon": "MousePointerClick",
+          "icon_color": "cyan-400",
+          "icon_animation": "/public/animations/click-anim.json"
+        }
+      },
+      {
+        "title": "Website Redesign",
+        "description": "Modernize your legacy website. Improved performance, accessibility, and a fresh aesthetic to match current web standards.",
+        "icon_images": {
+          "icon": "PenTool",
+          "icon_color": "orange-400",
+          "icon_animation": "/public/animations/pentool-anim.json"
+        }
+      }
+    ]
+  },
+  "portfolio_section": {
+    "title": "Selected Works",
+    "description": "A collection of projects that showcase my passion for building digital products.",
+    "categories": ["Web", "App"],
+    "projects": [
+      {
+        "title": "E-Commerce Platform",
+        "description": "A full-featured online store with cart, checkout, and admin dashboard.",
+        "category": "Web",
+        "image": "/images/project-web-1.jpg",
+        "url": "#",
+        "tags": ["Next.js", "TypeScript", "Stripe"]
+      },
+
+      {
+        "title": "Corporate Website",
+        "description": "Modern corporate identity website for a financial firm.",
+        "category": "Web",
+        "image": "/images/project-web-2.jpg",
+        "url": "#",
+        "tags": ["React", "Tailwind CSS"]
+      },
+      {
+        "title": "Task Management Tool",
+        "description": "Productivity app for teams to manage tasks and projects.",
+        "category": "App",
+        "image": "/images/project-app-2.jpg",
+        "url": "#",
+        "tags": ["Flutter", "Dart"]
+      }
+    ]
+  },
+  "about_me_section": {
+    "title": "Hello World",
+    "description": "I'm a passionate web developer dedicated to transforming ideas into stunning digital experiences. With a keen eye for design and a commitment to quality, I specialize in creating websites that not only look great but also perform flawlessly. Let's collaborate to bring your vision to life!",
+    "social_media": [
+      {
+        "name": "Github",
+        "icon": "/images/github.svg",
+        "url": "https://github.com/Lenzia207"
+      },
+      {
+        "name": "LinkedIn",
+        "icon": "/images/linkedIn.svg",
+        "url": ""
+      }
+    ]
+  },
+  "contact_section": {
+    "title": "Lets get in Touch",
+    "description": "Ready to bring your ideas to life? Contact me for a free consultation and let's discuss how I can help you achieve your goals.",
+    "nameLabel": "Name*",
+    "namePlaceholder": "Please enter you full name",
+    "companyLabel": "Company",
+    "companyPlaceholder": "Your Company",
+    "emailLabel": "Email*",
+    "emailPlaceholder": "your.name@mail.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "How can I help you?",
+    "btn_text": "Send Message"
+  }
+}
