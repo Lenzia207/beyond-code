@@ -98,7 +98,7 @@ export default function PortfolioSection({
               >
                 {/* Image Placeholder - In a real app, use Next.js Image */}
                 <div className="aspect-video w-full bg-zinc-800/50 relative overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 via-transparent to-transparent opacity-60" />
+                  <div className="absolute inset-0 bg-linear-to-t from-zinc-900 via-transparent to-transparent opacity-60" />
 
                   {/* Placeholder for actual image */}
                   <div className="absolute inset-0 flex items-center justify-center text-zinc-700">
