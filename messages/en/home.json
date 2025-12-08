@@ -1,48 +1,48 @@
 {
   "hero_section": {
     "title_line1": "Building Websites for your Business",
-    "title_line2": "and Ideas.",
-    "description": "Turn your abstract ideas into visual reality. I craft digital experiences that perform as beautifully as they look.",
+    
+    "description": "Turn your ideas into visual reality.\nFrom concept to production, your digital product becomes a responsive, high-performance website with modern animations and intuitive user experiences.",
     "btn_text": "Contact Me"
   },
   "service_section": {
     "title": "How can I Help?",
-    "description": "Comprehensive design and development solutions.",
+    "description": "I develop custom web solutions that fit your needs.\nWhether you want a brand-new website, a redesign, or new features that take your existing project further.",
     "services": [
       {
         "title": "Custom Web Development from Scratch",
-        "description": "From Design to Deployment: Creating responsive and dynamic websites using the latest technologies.",
+        "description": "No website yet, but a clear idea in mind? I turn your concept into a fully built digital product with design, development, and deployment included. Every project is built with clean code, scalability in mind, and a user experience that feels natural.",
         "icon_images": {
           "icon": "Code2",
           "icon_color": "blue-400",
-          "icon_animation": "/public/animations/code-anim.json"
+          "icon_animation": "/animations/code-anim.json"
         }
       },
       {
-        "title": "Build Website by your Design",
-        "description": "Building user-friendly interfaces that enhance user experience.",
+        "title": "Bring Your Design to Life",
+        "description": "Already have a finished design? Perfect. I transform your static design into a fully functional, responsive website with clean, maintainable code and precise attention to detail.",
         "icon_images": {
           "icon": "Layers",
           "icon_color": "pink-400",
-          "icon_animation": "/public/animations/layer-anim.json"
+          "icon_animation": "/animations/layer-anim.json"
         }
       },
       {
         "title": "Feature Integration",
-        "description": "Add interactivity, animations, forms, or third-party API integrations to breathe life into your static pages.",
+              "description": "Need something extra? I extend existing websites with new features that enhance functionality and create real value. From forms, authentication, databases, and APIs to payment systems, dashboards, or custom interactive elements like animations — your site evolves without disrupting the original design.",
         "icon_images": {
           "icon": "MousePointerClick",
           "icon_color": "cyan-400",
-          "icon_animation": "/public/animations/click-anim.json"
+          "icon_animation": "/animations/click-anim.json"
         }
       },
       {
         "title": "Website Redesign",
-        "description": "Modernize your legacy website. Improved performance, accessibility, and a fresh aesthetic to match current web standards.",
+        "description": "Your website feels outdated? This may be holding your business back. I transform existing designs into modern, responsive experiences with improved performance, better structure, and a visual identity that reflects who you are as a brand.",
         "icon_images": {
           "icon": "PenTool",
           "icon_color": "orange-400",
-          "icon_animation": "/public/animations/pentool-anim.json"
+          "icon_animation": "/animations/pentool-anim.json"
         }
       }
     ]

@@ -40,16 +40,16 @@ export default function ServiceSection({
           <h2 className="font-serif text-4xl md:text-5xl font-medium tracking-tight text-white mb-4">
             {title}
           </h2>
-          <p className="text-zinc-500">{description}</p>
+          <p className="text-zinc-500 whitespace-pre-line">{description}</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {services.map((service, index) => {
             const animationMap: { [key: string]: any } = {
-              "/public/animations/code-anim.json": codeAnim,
-              "/public/animations/layer-anim.json": layerAnim,
-              "/public/animations/click-anim.json": clickAnim,
-              "/public/animations/pentool-anim.json": pentoolAnim,
+              "/animations/code-anim.json": codeAnim,
+              "/animations/layer-anim.json": layerAnim,
+              "/animations/click-anim.json": clickAnim,
+              "/animations/pentool-anim.json": pentoolAnim,
             };
             const bgColors = [
               "bg-blue-500/10 border-blue-500/20",

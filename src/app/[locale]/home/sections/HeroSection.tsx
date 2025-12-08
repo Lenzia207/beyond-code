@@ -1,4 +1,5 @@
 import { MessageCircle } from "lucide-react";
+import BackgroundEffect from "@/components/BackgroundEffect";
 
 interface HeroSectionProps {
   titleLine1: string;
@@ -8,26 +9,22 @@ interface HeroSectionProps {
 }
 export default function HeroSection({
   titleLine1,
-  titleLine2,
   description,
   btnText,
 }: HeroSectionProps) {
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-20">
       {/* Background Effects */}
-      <div className="absolute inset-0 gradient-radial-blue pointer-events-none"></div>
-      <div className="absolute top-1/4 right-0 w-[500px] h-[500px] bg-blue-600/10 rounded-full blur-[120px] pointer-events-none"></div>
-      <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-cyan-600/5 rounded-full blur-[100px] pointer-events-none"></div>
-
+      <BackgroundEffect />
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
         <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-medium tracking-tight leading-[1.1] mb-8">
           <span className="block animate-enter text-white">{titleLine1}</span>
-          <span className="block animate-enter delay-200 text-gradient-blue italic">
+          {/* <span className="block animate-enter delay-200 text-gradient-blue italic">
             {titleLine2}
-          </span>
+          </span> */}
         </h1>
 
-        <p className="animate-enter delay-300 text-lg md:text-xl text-zinc-400 max-w-xl mx-auto font-light leading-relaxed mb-10">
+        <p className="animate-enter delay-300 text-lg md:text-xl text-zinc-400 max-w-xxl mx-auto font-light leading-relaxed mb-10 whitespace-pre-line">
           {description}
         </p>
 
