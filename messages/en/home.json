@@ -53,25 +53,41 @@
     "categories": ["Web", "App"],
     "projects": [
       {
-        "title": "E-Commerce Platform",
+        "title": "Institut for Electrochemistry, Galvanic and Materialchemistry",
         "description": "A full-featured online store with cart, checkout, and admin dashboard.",
         "category": "Web",
-        "image": "/images/project-web-1.jpg",
-        "url": "#",
+        "image": null,
+        "url": "https://elektrochemie.eu/",
         "tags": ["Next.js", "TypeScript", "Stripe"]
       },
 
       {
-        "title": "Corporate Website",
-        "description": "Modern corporate identity website for a financial firm.",
+        "title": "Camp Currie",
+        "description": "A farmer-project website called Camp Currie. I worked on developing the front-end using React and Tailwind CSS to create a responsive and visually appealing design.",
         "category": "Web",
-        "image": "/images/project-web-2.jpg",
-        "url": "#",
+        "image": "/images/portfolio/web-camp-currie.png",
+        "url": "https://camp-currie.at/",
         "tags": ["React", "Tailwind CSS"]
       },
       {
-        "title": "Task Management Tool",
-        "description": "Productivity app for teams to manage tasks and projects.",
+        "title": "Aktionsfinder App",
+        "description": "A mobile app that helps users find local deals and promotions in Austria.",
+        "category": "App",
+        "image": "/images/project-app-2.jpg",
+        "url": "#",
+        "tags": ["Flutter", "Dart"]
+      },
+      {
+        "title": "Tiroler Tageszeitung App",
+        "description": "A news app delivering the latest headlines and articles from Tiroler Tageszeitung. I worked on adding various functionalities and UI components including integrating Dark Mode.",
+        "category": "App",
+        "image": "/images/project-app-2.jpg",
+        "url": "#",
+        "tags": ["Flutter", "Dart"]
+      },
+      {
+        "title": "Protokoll on Demand App",
+        "description": "An on-demand mobile app for document management and sharing.",
         "category": "App",
         "image": "/images/project-app-2.jpg",
         "url": "#",
