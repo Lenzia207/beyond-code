@@ -11,7 +11,6 @@ export interface HomePageData {
 
 export interface HeroSection {
   title_line1: string;
-  title_line2: string;
   description: string;
   btn_text: string;
 }
