@@ -5,6 +5,7 @@ export interface HomePageData {
   hero_section: HeroSection;
   service_section: ServiceSection;
   portfolio_section: PortfolioSection;
+  tech_stack_section: TechStackSection;
   about_me_section: AboutMeSection;
   contact_section: ContactSection;
 }
@@ -42,6 +43,15 @@ export interface Project {
   image: string | null;
   url?: string;
   tags: string[];
+}
+
+export interface TechStackSection {
+  title: string;
+  description: string;
+  stacks: {
+    category: string;
+    items: string[];
+  }[];
 }
 
 export interface AboutMeSection {

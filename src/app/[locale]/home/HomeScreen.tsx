@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import HeroSection from "./sections/HeroSection";
 import ServiceSection from "./sections/ServiceSection";
 import PortfolioSection from "./sections/PortfolioSection";
+import TechStackSection from "./sections/TechStackSection";
 import AboutMeSection from "./sections/AboutMeSection";
 import ContactSection from "./sections/ContactSection";
 import { HomePageData } from "./sections/data/types/home-types";
@@ -35,6 +36,13 @@ export default function HomeScreen({ data }: HomeScreenProps) {
         description={data.portfolio_section.description}
         categories={data.portfolio_section.categories}
         projects={data.portfolio_section.projects}
+      />
+
+      {/* Tech Stack Section */}
+      <TechStackSection
+        title={data.tech_stack_section.title}
+        description={data.tech_stack_section.description}
+        stacks={data.tech_stack_section.stacks}
       />
 
       {/* About Me Section */}

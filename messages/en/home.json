@@ -49,7 +49,7 @@
   },
   "portfolio_section": {
     "title": "Selected Works",
-    "description": "A collection of projects that showcase my passion for building digital products.",
+    "description": "A selection of digital experiences I’ve developed and contributed to over the years. My work includes modern websites built with Next.js, React and Tailwind CSS, as well as cross-platform mobile apps created with Flutter and Dart. More is on the way.",
     "categories": ["Web", "App"],
     "projects": [
       {
@@ -95,9 +95,23 @@
       }
     ]
   },
+  "tech_stack_section": {
+    "title": "Tech Stack",
+    "description": "The technologies I use to build digital products.",
+    "stacks": [
+      {
+        "category": "Web",
+        "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js", "PostgreSQL"]
+      },
+      {
+        "category": "App",
+        "items": ["Flutter", "Dart", "Firebase", "Riverpod", "Bloc"]
+      }
+    ]
+  },
   "about_me_section": {
     "title": "Hello World",
-    "description": "I'm a passionate web developer dedicated to transforming ideas into stunning digital experiences. With a keen eye for design and a commitment to quality, I specialize in creating websites that not only look great but also perform flawlessly. Let's collaborate to bring your vision to life!",
+    "description": "I am a freelance developer who started out in a digital agency, where I spent two years helping to build and maintain digital applications. My journey now continues as an independent creator, which gives me the freedom to combine my design background in animation and media with my passion for web and app development. This blend of design and engineering makes me a multi-skilled partner for projects that need both creativity and technical expertise.",
     "social_media": [
       {
         "name": "Github",
