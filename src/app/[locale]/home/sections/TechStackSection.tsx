@@ -34,13 +34,13 @@ function StackBubble({ stack }: { stack: TechStackSectionType["stacks"][0] }) {
       <div className="absolute inset-0 z-10 pointer-events-none">
         {stack.items.map((item, index) => {
           const totalItems = stack.items.length;
-          const angleStep = 260 / totalItems;
+          const angleStep = 360 / totalItems;
           const angle = index * angleStep - 10; // Start from top
           const radian = (angle * Math.PI) / 180;
 
           // Radii
-          const initialRadius = 65; // Barely visible
-          const expandedRadius = 150; // Move out
+          const initialRadius = 100; // Barely visible
+          const expandedRadius = 140; // Move out
 
           const x = Math.cos(radian) * expandedRadius;
           const y = Math.sin(radian) * expandedRadius;
@@ -51,17 +51,26 @@ function StackBubble({ stack }: { stack: TechStackSectionType["stacks"][0] }) {
           return (
             <div
               key={item}
-              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-500 cubic-bezier(0.34, 1.56, 0.64, 1)"
+              className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-500 cubic-bezier(0.34, 1.56, 0.64, 1) ${
+                isHovered ? "scale-[0.9] md:scale-[1.2]" : "scale-[0.65] md:scale-[0.8]"
+              }`}
               style={{
                 transform: isHovered
-                  ? `translate(calc(-50% + ${x}px), calc(-50% + ${y}px))`
-                  : `translate(calc(-40% + ${initialX}px), calc(-20% + ${initialY}px))`,
+                  ? `translate(calc(0% + ${x}px), calc(0% + ${y}px))`
+                  : `translate(calc(30% + ${initialX}px), calc(0% + ${initialY}px))`,
                 opacity: 1,
-                scale: isHovered ? 1 : 0.8,
                 transitionDelay: `${index * 30}ms`,
               }}
             >
-              <div className="px-4 py-2 rounded-full bg-zinc-900/90 border border-white/10 text-sm text-zinc-300 whitespace-nowrap shadow-xl backdrop-blur-md">
+              <div
+                className={`px-4 py-2 rounded-full bg-zinc-900/90 border border-white/10 text-sm text-zinc-300 whitespace-nowrap shadow-xl backdrop-blur-md ${
+                  !isHovered ? "animate-subtle-shake" : ""
+                }`}
+                style={{
+                  animationDelay: `${index * 0.1}s`,
+                  animationDuration: `${3 + (index % 3)}s`,
+                }}
+              >
                 {item}
               </div>
             </div>
@@ -81,8 +90,8 @@ export default function TechStackSection({
   stacks,
 }: TechStackSectionProps) {
   return (
-    <section className="py-24 relative overflow-hidden">
-      <div className="container mx-auto px-4">
+    <section className="pb-10 relative overflow-hidden">
+      <div className="container mx-auto px-4 pb-10">
         <div className="text-center mb-20 max-w-2xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-clip-text text-transparent bg-linear-to-r from-white to-white/60">
             {title}
@@ -90,7 +99,7 @@ export default function TechStackSection({
           <p className="text-zinc-400 text-lg leading-relaxed">{description}</p>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-center items-center gap-32 md:gap-48">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-32 md:gap-60 p-10">
           {stacks.map((stack) => (
             <StackBubble key={stack.category} stack={stack} />
           ))}

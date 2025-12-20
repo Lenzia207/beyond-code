@@ -101,11 +101,11 @@
     "stacks": [
       {
         "category": "Web",
-        "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js", "PostgreSQL"]
+        "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js"]
       },
       {
         "category": "App",
-        "items": ["Flutter", "Dart", "Firebase", "Riverpod", "Bloc"]
+        "items": ["Flutter", "Dart", "Firebase", "Riverpod", "Serverpod"]
       }
     ]
   },
@@ -121,7 +121,7 @@
       {
         "name": "LinkedIn",
         "icon": "/images/linkedIn.svg",
-        "url": ""
+        "url": "https://www.linkedin.com/in/lena-z-230b01176/"
       }
     ]
   },
